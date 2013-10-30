@@ -2,10 +2,10 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/home/evan/MobileProto/Lab0Project/Lab0/src/main/assets" />
+        <source path="/Users/rachel/code/mobdev/OlinChallenge/src/main/assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/home/evan/MobileProto/Lab0Project/Lab0/src/debug/assets" />
+        <source path="/Users/rachel/code/mobdev/OlinChallenge/src/debug/assets" />
     </dataSet>
 
 </merger>

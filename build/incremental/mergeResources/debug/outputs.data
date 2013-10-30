@@ -1,12 +1,12 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1378144544000 1061 82dad68aa25de557aabf76a78ccedc5998b29d67 /home/evan/MobileProto/Lab0Project/Lab0/build/res/all/debug/values/values.xml
-1378144544000 330 4fba0bae6e478303592f8295483e8355924a5cdd /home/evan/MobileProto/Lab0Project/Lab0/build/res/all/debug/menu/main.xml
-1378144544000 9332 4e0e62a430558d0cce3c5dee6f4709055a63a45c /home/evan/MobileProto/Lab0Project/Lab0/build/res/all/debug/drawable-xhdpi/ic_launcher.png
-1378144544000 233 25871a0ee469afb1368fcf72c0e52b00761e31cf /home/evan/MobileProto/Lab0Project/Lab0/build/res/all/debug/values-sw720dp-land/values.xml
-1378144544000 5946 4bf7402bd7df466a787014bdbf5cafd9aa89c2b5 /home/evan/MobileProto/Lab0Project/Lab0/build/res/all/debug/drawable-hdpi/ic_launcher.png
-1378144544000 17765 702fd3311475c099afc13c0b03375d917cc82018 /home/evan/MobileProto/Lab0Project/Lab0/build/res/all/debug/drawable-xxhdpi/ic_launcher.png
-1378144544000 296 ffc6713bbb2a3924dab780befea3a37575d6411f /home/evan/MobileProto/Lab0Project/Lab0/build/res/all/debug/values-v11/values.xml
-1378144544000 746 38270fde716c31a665180ba66cc9f21518a0f355 /home/evan/MobileProto/Lab0Project/Lab0/build/res/all/debug/layout/activity_main.xml
-1378144544000 3121 c13193c37274d333ac028cc72c260b891662d9d0 /home/evan/MobileProto/Lab0Project/Lab0/build/res/all/debug/drawable-mdpi/ic_launcher.png
+1383169077000 233 d2adabc69829ac882cd0aa9e1076a61c495b1bbc /Users/rachel/code/mobdev/OlinChallenge/build/res/all/debug/values-sw720dp-land/values.xml
+1382975256000 17765 702fd3311475c099afc13c0b03375d917cc82018 /Users/rachel/code/mobdev/OlinChallenge/build/res/all/debug/drawable-xxhdpi/ic_launcher.png
+1383169077000 1061 0af256c2bc3aee92f38602c9731b68ebe11e0901 /Users/rachel/code/mobdev/OlinChallenge/build/res/all/debug/values/values.xml
+1382975256000 3121 c13193c37274d333ac028cc72c260b891662d9d0 /Users/rachel/code/mobdev/OlinChallenge/build/res/all/debug/drawable-mdpi/ic_launcher.png
+1383169077000 1262 0e825808760753738199710dc8217f488bbb43c6 /Users/rachel/code/mobdev/OlinChallenge/build/res/all/debug/layout/activity_main.xml
+1382975256000 9332 4e0e62a430558d0cce3c5dee6f4709055a63a45c /Users/rachel/code/mobdev/OlinChallenge/build/res/all/debug/drawable-xhdpi/ic_launcher.png
+1382975256000 5946 4bf7402bd7df466a787014bdbf5cafd9aa89c2b5 /Users/rachel/code/mobdev/OlinChallenge/build/res/all/debug/drawable-hdpi/ic_launcher.png
+1383169077000 296 fa09a8f4b1e09d4d72a5340281aff77fcacbfe0b /Users/rachel/code/mobdev/OlinChallenge/build/res/all/debug/values-v11/values.xml
+1383169077000 330 2ff9be6c81dfef6ddf95d12f8e6f0ba994ef41ab /Users/rachel/code/mobdev/OlinChallenge/build/res/all/debug/menu/main.xml

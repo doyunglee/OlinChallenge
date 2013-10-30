@@ -1,15 +1,15 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1378144513000 254 25b6404e44acb50c82590049639d4fb5fefbac8e /home/evan/MobileProto/Lab0Project/Lab0/src/main/res/values-sw720dp-land/dimens.xml
-1378144512000 12329 a8301606e15d4b6dccdd775cc273cfc51a552645 /home/evan/MobileProto/Lab0Project/Lab0/src/main/res/drawable-xhdpi/ic_launcher.png
-1378144512000 7721 39b0f5a0570da92f471225402ad0ea6de30bf2be /home/evan/MobileProto/Lab0Project/Lab0/src/main/res/drawable-hdpi/ic_launcher.png
-1378144512000 318 f37b4c43b290eba4a42d9102f14a550c301de5c8 /home/evan/MobileProto/Lab0Project/Lab0/src/main/res/values-v11/styles.xml
-1378144513000 211 4e1904afba59d31e5cd6133f6a4c360fa9a5913f /home/evan/MobileProto/Lab0Project/Lab0/src/main/res/values/dimens.xml
-1378144512000 674 c78f92856947cb5742edaa3b94df76b0823dbbe7 /home/evan/MobileProto/Lab0Project/Lab0/src/main/res/values/styles.xml
-1378144512000 3769 eec07752d40e268ed7f4a1730acc77ab1e40aeb0 /home/evan/MobileProto/Lab0Project/Lab0/src/main/res/drawable-mdpi/ic_launcher.png
-1378144512000 24654 696bbbc63d2250ef7d3373f2d602e604acd13d8c /home/evan/MobileProto/Lab0Project/Lab0/src/main/res/drawable-xxhdpi/ic_launcher.png
-1378144513000 181 84de2797380184d8b39af6f829afb092fb956173 /home/evan/MobileProto/Lab0Project/Lab0/src/main/res/values-sw600dp/dimens.xml
-1378144513000 215 7e8fac7ae0fa633b5bfe4c937dd4e8a539b95401 /home/evan/MobileProto/Lab0Project/Lab0/src/main/res/values/strings.xml
-1378144512000 244 045ff451db7cd8e61285502b8c9bbf7405f2078d /home/evan/MobileProto/Lab0Project/Lab0/src/main/res/menu/main.xml
-1378144513000 649 52e8d9051811c2787c5fc0d0dc7735d67b0820be /home/evan/MobileProto/Lab0Project/Lab0/src/main/res/layout/activity_main.xml
+1382975256000 254 25b6404e44acb50c82590049639d4fb5fefbac8e /Users/rachel/code/mobdev/OlinChallenge/src/main/res/values-sw720dp-land/dimens.xml
+1382975256000 7721 39b0f5a0570da92f471225402ad0ea6de30bf2be /Users/rachel/code/mobdev/OlinChallenge/src/main/res/drawable-hdpi/ic_launcher.png
+1382975256000 181 84de2797380184d8b39af6f829afb092fb956173 /Users/rachel/code/mobdev/OlinChallenge/src/main/res/values-sw600dp/dimens.xml
+1382975256000 3769 eec07752d40e268ed7f4a1730acc77ab1e40aeb0 /Users/rachel/code/mobdev/OlinChallenge/src/main/res/drawable-mdpi/ic_launcher.png
+1382975256000 12329 a8301606e15d4b6dccdd775cc273cfc51a552645 /Users/rachel/code/mobdev/OlinChallenge/src/main/res/drawable-xhdpi/ic_launcher.png
+1382975256000 211 4e1904afba59d31e5cd6133f6a4c360fa9a5913f /Users/rachel/code/mobdev/OlinChallenge/src/main/res/values/dimens.xml
+1382975256000 318 f37b4c43b290eba4a42d9102f14a550c301de5c8 /Users/rachel/code/mobdev/OlinChallenge/src/main/res/values-v11/styles.xml
+1383168723000 1165 57f2e73773fdd1ac2b90e328f569e2df12862216 /Users/rachel/code/mobdev/OlinChallenge/src/main/res/layout/activity_main.xml
+1382975256000 674 c78f92856947cb5742edaa3b94df76b0823dbbe7 /Users/rachel/code/mobdev/OlinChallenge/src/main/res/values/styles.xml
+1382975256000 24654 696bbbc63d2250ef7d3373f2d602e604acd13d8c /Users/rachel/code/mobdev/OlinChallenge/src/main/res/drawable-xxhdpi/ic_launcher.png
+1382975256000 215 7e8fac7ae0fa633b5bfe4c937dd4e8a539b95401 /Users/rachel/code/mobdev/OlinChallenge/src/main/res/values/strings.xml
+1382975256000 244 045ff451db7cd8e61285502b8c9bbf7405f2078d /Users/rachel/code/mobdev/OlinChallenge/src/main/res/menu/main.xml
