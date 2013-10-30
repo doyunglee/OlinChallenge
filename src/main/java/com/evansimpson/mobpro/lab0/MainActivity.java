@@ -16,7 +16,6 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        NotificationHandler.getInstance().makeNotifications(this);
 
         final GPS gps = new GPS(this);
 
@@ -40,6 +39,8 @@ public class MainActivity extends Activity {
                 });
             }
         }, 0, 1000);
+
+
         NotificationHandler.getInstance().setContext(this).makeNotifications();
     }
 
