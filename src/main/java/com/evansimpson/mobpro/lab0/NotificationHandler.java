@@ -1,8 +1,10 @@
 package com.evansimpson.mobpro.lab0;
 
+import android.annotation.TargetApi;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.content.Context;
+import android.os.Build;
 
 /**
  * Created by rachel on 10/29/13.
@@ -22,6 +24,7 @@ public class NotificationHandler {
         return instance;
     }
 
+    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     public void makeNotifications(Context context){
         this.context = context;
         notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);

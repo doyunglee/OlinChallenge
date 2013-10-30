@@ -11,7 +11,25 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:text="@string/hello_world"
+        android:id="@+id/hello"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lon"
+        android:layout_below="@+id/lat"
+        android:text="" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lat"
+        android:text=""
+        android:layout_below="@+id/hello" />
+
 
 </RelativeLayout>
-<!-- From: file:/home/evan/MobileProto/Lab0Project/Lab0/src/main/res/layout/activity_main.xml -->
+<!-- From: file:/home/amclaughlin/Documents/OlinChallenge/src/main/res/layout/activity_main.xml -->
