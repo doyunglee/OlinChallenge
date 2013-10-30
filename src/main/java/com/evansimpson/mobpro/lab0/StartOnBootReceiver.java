@@ -10,7 +10,6 @@ import android.content.Intent;
  */
 public class StartOnBootReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
-
-
+//        NotificationHandler.getInstance().setContext(context).makeNotifications();
     }
 }
