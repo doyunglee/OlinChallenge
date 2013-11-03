@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/OlinChallenge/OlinChallenge.iml" filepath="$PROJECT_DIR$/OlinChallenge/OlinChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OlinChallenge/OlinChallenge-OlinChallenge.iml" filepath="$PROJECT_DIR$/OlinChallenge/OlinChallenge-OlinChallenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/OlinChallengeProject.iml" filepath="$PROJECT_DIR$/OlinChallengeProject.iml" />
     </modules>
   </component>
