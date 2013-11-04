@@ -1,8 +1,15 @@
 package com.mobpro.olinchallenge;
 
 import android.app.Activity;
+import android.content.ComponentName;
+import android.content.Intent;
+import android.content.ServiceConnection;
 import android.os.Bundle;
+import android.os.IBinder;
+import android.util.Log;
 import android.view.Menu;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.Timer;
@@ -12,39 +19,40 @@ public class MainActivity extends Activity {
 
     private Timer autoUpdate;
 
+    public void setService(UpdaterService service) {
+        this.service = service;
+    }
+
+    private UpdaterService service;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_list);
 
-        final GPS gps = new GPS(this);
+        Intent i = new Intent(getApplicationContext(), UpdaterService.class);
 
-        autoUpdate = new Timer();
-        autoUpdate.schedule(new TimerTask() {
+        startService(i);
+
+        ServiceConnection conn = new ServiceConnection() {
             @Override
-            public void run() {
-                runOnUiThread(new Runnable() {
-                    public void run() {
-                        if(gps.canGetLocation()){
-
-                            TextView lat = (TextView) findViewById(R.id.lat);
-                            TextView lon = (TextView) findViewById(R.id.lon);
-
-                            lat.setText("Latitude: " + String.valueOf(gps.getLatitude()));
-                            lon.setText("Longitude: " + String.valueOf(gps.getLongitude()));
-
-
-                        }
-                    }
-                });
+            public void onServiceConnected(ComponentName name, final IBinder service) {
+                setService(((UpdaterService.UpdaterBinder) service).getService());
+                startDisplayUpdates();
             }
-        }, 0, 1000);
 
+            @Override
+            public void onServiceDisconnected(ComponentName name) {
+                if (autoUpdate != null){
+                    autoUpdate.cancel();
+                    autoUpdate = null;
+                }
+            }
+        };
 
-        NotificationHandler.getInstance().setContext(this).makeNotifications();
+        bindService(new Intent(this, UpdaterService.class), conn, BIND_AUTO_CREATE);
+
     }
-
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -53,5 +61,26 @@ public class MainActivity extends Activity {
 
         return true;
     }
-    
+
+
+    public void startDisplayUpdates(){
+        autoUpdate = new Timer();
+        autoUpdate.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                runOnUiThread(new Runnable() {
+                    public void run() {
+                        if(service.canGetLocation()){
+
+                            ListView listView = (ListView) MainActivity.this.findViewById(R.id.listView);
+                            listView.setAdapter(new ArrayAdapter<Person>(MainActivity.this, android.R.layout.simple_list_item_1, service.people));
+
+                        }
+                    }
+                });
+            }
+        }, 0, 5000);
+
+    }
+
 }

@@ -39,11 +39,14 @@ public class GPS extends Service implements LocationListener{
 
     public GPS(Context context){
         this.mContext = context;
+        Log.d("gps", "creating gps");
         getLocation();
     }
 
     public Location getLocation(){
         try {
+            Log.d("gps", "trying");
+
             lm = (LocationManager) mContext.getSystemService(LOCATION_SERVICE);
 
             isGPSEnabled = lm.isProviderEnabled(LocationManager.GPS_PROVIDER);
@@ -54,6 +57,8 @@ public class GPS extends Service implements LocationListener{
 
             }else{
                 this.canGetLocation = true;
+
+
 
                 if (isNetworkEnabled) {
                     lm.requestLocationUpdates(
@@ -93,6 +98,8 @@ public class GPS extends Service implements LocationListener{
         } catch (Exception e){
             e.printStackTrace();
         }
+
+        Log.d("gps", location.toString());
 
         return location;
     }

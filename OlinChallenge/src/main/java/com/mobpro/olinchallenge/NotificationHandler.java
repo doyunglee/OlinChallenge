@@ -58,7 +58,7 @@ public class NotificationHandler {
         notificationManager.notify(0, n);
         Log.d("notification", "updated");
 
-        setNextUpdate(10000);
+        setNextUpdate(100000);
     }
 
     private void setNextUpdate(int delay) {
