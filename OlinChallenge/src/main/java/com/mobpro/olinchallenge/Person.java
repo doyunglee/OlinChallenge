@@ -16,6 +16,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return _id;
+        return _id + " is near you!";
     }
 }

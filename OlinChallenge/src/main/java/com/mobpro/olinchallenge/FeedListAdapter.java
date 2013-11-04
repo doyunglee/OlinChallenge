@@ -26,8 +26,6 @@ public class FeedListAdapter extends ArrayAdapter<FeedItem> {
     private class FeedItemHolder{
 
         TextView userName;
-        TextView text;
-        TextView condition;
 
     }
 
@@ -43,7 +41,7 @@ public class FeedListAdapter extends ArrayAdapter<FeedItem> {
             holder = new FeedItemHolder();
             Log.d("Maybe", "Maybe");
             holder.userName = (TextView) feedRow.findViewById(R.id.feedItemUser);
-            holder.text = (TextView) feedRow.findViewById(R.id.feedText);
+//            holder.text = (TextView) feedRow.findViewById(R.id.feedText);
             Log.d("yes", "YES!");
 
             feedRow.setTag(holder);
@@ -54,7 +52,7 @@ public class FeedListAdapter extends ArrayAdapter<FeedItem> {
         FeedItem item = data.get(position);
 
         holder.userName.setText(item.userName);
-        holder.text.setText(item.text);
+//        holder.text.setText(item.text);
 
         return feedRow;
     }

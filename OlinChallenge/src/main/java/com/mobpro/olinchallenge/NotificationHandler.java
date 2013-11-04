@@ -49,7 +49,7 @@ public class NotificationHandler {
         Notification n = new Notification.Builder(context)
                 .setContentTitle("You are near 3 Oliners")
                 .setContentText("Scott, Chris, and Greg are near you")
-                .setSmallIcon(R.drawable.ic_launcher)
+                .setSmallIcon(R.drawable.olin_challenge)
                 .setContentIntent(resultIntent)
                 .getNotification();
 
